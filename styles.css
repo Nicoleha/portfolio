@@ -1,0 +1,28 @@
+body, html{height:100%;
+}
+#hm{
+    background-image:url(https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    height:100%;
+    background-size:cover;
+}
+nav>a{display: flex;
+padding:50px;
+text-decoration: none;
+color:rgb(224, 170, 104);
+font-family:'Courier New';
+font-size:20px;
+}
+nav>a:hover{
+
+}
+#one{background-image:url("https://images.pexels.com/photos/476/man-person-red-white.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+height:700px;
+}
+body p:first-child{color:rgb(224, 170, 104);
+    padding-left:500px;
+font-size: 30px;
+position:absolute;
+bottom:100px;
+font-family: 'Courier New';
+}
+p span{color:#7FFFD4;}
