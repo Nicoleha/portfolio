@@ -26,3 +26,13 @@ bottom:100px;
 font-family: 'Courier New';
 }
 p span{color:#7FFFD4;}
+#projects{backg}
+.link{padding:8px;
+text-decoration:none;
+background-color:rgb(224, 170, 104);
+font-family:cursive;
+color:white;}
+.link:hover{
+    background-color: black;
+    font-size :17px;
+}
