@@ -1,7 +1,7 @@
 body, html{height:100%;
 }
 #hm{
-    background-image:url("https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-image:url("https://images.pexels.com/photos/934062/pexels-photo-934062.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
     height:100%;
     background-size:cover;
 }
@@ -19,15 +19,15 @@ opacity: 0.7;
 nav>a:hover{
     background-color:gainsboro;
     border:1px dotted red;
-    color:orange;
+    color:rgb(214, 69, 142);
 
 }
 
-.intro{color:rgb(224, 170, 104);
+.intro{color:rgb(160, 150, 65);
     padding-left:500px;
 font-size: 30px;
 position:absolute;
-bottom:100px;
+bottom:130px;
 font-family: 'Courier New';
 width:46%;
 }
