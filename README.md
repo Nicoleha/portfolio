@@ -8,7 +8,7 @@ This website is about me as a student of wecode and a software developer. It giv
 * Connect to internet
 * search for my link: Nicoleha.github.io/portfolio
 * There you are on my website!
-
+This website can be view on mobile or computer and with ease.
 ## Known Bugs
 All safe , no bugs will be encoutered on my portfolio website.
 ## Technologies Used
