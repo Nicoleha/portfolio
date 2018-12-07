@@ -16,7 +16,7 @@ I used Ubuntu software to create my website. I hosted it using git hub after pus
 ## Support and contact details
 If needed contact me on:
 E-mail:nicoleha127@gmail.com
-Phone:0732702205
+Phone:0732702205-0781899928.
 ### License
 *[MIT]*
 Copyright (c) 2018 **HATEGEKIMANA NICOLE**
