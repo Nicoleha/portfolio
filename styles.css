@@ -26,13 +26,50 @@ bottom:100px;
 font-family: 'Courier New';
 }
 p span{color:#7FFFD4;}
-#projects{backg}
+#projects h3{background-color:}
 .link{padding:8px;
 text-decoration:none;
 background-color:rgb(224, 170, 104);
 font-family:cursive;
 color:white;}
 .link:hover{
-    background-color: black;
-    font-size :17px;
+    background-color: darkgray;
+    font-size :19px;
 }
+#about{text-align:center;
+    color:rgb(224, 170, 104);
+font-family:'Courier New';
+background-color:grey;
+padding:80px;
+}
+#contact{text-align:center;
+    color:red;
+    background-color:black;
+    
+
+}
+input[type=text], select {
+    width: 60%;
+    padding: 17px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 60%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 17px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  #contact span{padding-top:100px;}
