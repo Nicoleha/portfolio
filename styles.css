@@ -55,7 +55,7 @@ padding:80px;
 }
 #contact{text-align:center;
     color:rgb(141, 80, 153);
-    background-color:rgb(212, 205, 205);
+    background-color:rgb(212, 204, 205);
 padding:80px ;
 font-family:monospace;
 }
@@ -72,7 +72,7 @@ input[type=text], select {
   
   input[type=submit] {
     width: 20%;
-    background-color: rgb(190, 136, 201);
+    background-color: rgb(189, 136, 201);
     color: white;
     padding: 28px 34px;
     margin: 7px 0;
@@ -91,7 +91,7 @@ background-color:grey;
 font-family:'Courier New';
 opacity: 0.65;}
 
-#projects{padding:200px;
+#projects{padding:199px;
     background-color:rgb(245, 236, 236) ;
 }
 #projects h1{text-align:center;
