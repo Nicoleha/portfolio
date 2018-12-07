@@ -1,31 +1,38 @@
 body, html{height:100%;
 }
 #hm{
-    background-image:url("https://images.pexels.com/photos/248515/pexels-photo-248515.png?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-image:url("https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
     height:100%;
     background-size:cover;
 }
+nav{position:fixed;}
 nav>a{display: flex;
 padding:50px;
 text-decoration: none;
-color:rgb(224, 170, 104);
+color:khaki;
 font-family:'Courier New';
 font-size:20px;
+background-color: black;
+border:1px solid #f05050;
+opacity: 0.7;
 }
 nav>a:hover{
+    background-color:gainsboro;
+    border:1px dotted red;
+    color:orange;
 
 }
-#one{background-image:url("https://images.pexels.com/photos/476/man-person-red-white.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500");
-height:700px;
-}
+
 .intro{color:rgb(224, 170, 104);
     padding-left:500px;
 font-size: 30px;
 position:absolute;
 bottom:100px;
 font-family: 'Courier New';
+width:46%;
 }
-p span{color:aquamarine;}
+p span{color:rgb(33, 58, 128);
+}
 #projects h3{background-color:rgb(212, 205, 205);
 padding:10px;
 font-family:monospace;}
@@ -41,7 +48,7 @@ color:white;}
     font-size :19px;
 }
 #about{text-align:center;
-    color:rgb(224, 170, 104);
+    color:rgb(211, 144, 62);
 font-family:'Courier New';
 background-color:rgb(212, 205, 205);
 padding:80px;
