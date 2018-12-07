@@ -1,7 +1,7 @@
 body, html{height:100%;
 }
 #hm{
-    background-image:url(https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-image:url("https://images.pexels.com/photos/248515/pexels-photo-248515.png?auto=compress&cs=tinysrgb&dpr=1&w=500");
     height:100%;
     background-size:cover;
 }
@@ -18,18 +18,18 @@ nav>a:hover{
 #one{background-image:url("https://images.pexels.com/photos/476/man-person-red-white.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500");
 height:700px;
 }
-body p:first-child{color:rgb(224, 170, 104);
+.intro{color:rgb(224, 170, 104);
     padding-left:500px;
 font-size: 30px;
 position:absolute;
 bottom:100px;
 font-family: 'Courier New';
 }
-p span{color:#7FFFD4;}
+p span{color:aquamarine;}
 #projects h3{background-color:}
 .link{padding:8px;
 text-decoration:none;
-background-color:rgb(224, 170, 104);
+background-color:rgb(190, 136, 201);
 font-family:cursive;
 color:white;}
 .link:hover{
@@ -44,9 +44,8 @@ padding:80px;
 }
 #contact{text-align:center;
     color:red;
-    background-color:black;
-    
-
+    background-color:grey;
+padding:80px ;
 }
 input[type=text], select {
     width: 60%;
@@ -56,11 +55,12 @@ input[type=text], select {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+   
   }
   
   input[type=submit] {
     width: 60%;
-    background-color: #4CAF50;
+    background-color: red;
     color: white;
     padding: 17px 20px;
     margin: 8px 0;
@@ -70,6 +70,40 @@ input[type=text], select {
   }
   
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color:red;
   }
-  #contact span{padding-top:100px;}
+ 
+  footer{text-align:center;
+padding-top:20px;
+background-color:grey;
+font-family:'Courier New';
+opacity: 0.6;}
+
+#projects{padding:200px;}
+#projects h1{text-align:center;}
+
+.project{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    padding: 1px;
+    text-decoration-line:none;
+      
+}
+.project a{
+    text-decoration-line:none;
+    border:1px solid #f05050;
+    padding:10px;
+    background-color:rgba(230, 132, 132, 0.1);
+}
+.project a:hover{
+    background-color:#f05050;}
+.project{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+.projec{display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    }
