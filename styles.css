@@ -1,130 +1,167 @@
-body, html{height:100%;
+body,
+html {
+  height: 100%;
 }
-#hm{
-    background-image:url("https://images.pexels.com/photos/934062/pexels-photo-934062.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
-    height:100%;
-    background-size:cover;
+#hm {
+  background-image: url("https://images.pexels.com/photos/34578/pexels-photo.jpg");
+  height: 100%;
+  background-size: cover;
 }
-nav{position:fixed;}
-nav>a{display: flex;
-padding:50px;
-text-decoration: none;
-color:khaki;
-font-family:'Courier New';
-font-size:20px;
-background-color: black;
-border:1px solid #f05050;
-opacity: 0.7;
+nav {
+  position: fixed;
 }
-nav>a:hover{
-    background-color:gainsboro;
-    border:1px dotted red;
-    color:rgb(214, 69, 142);
+nav > a {
+  display: flex;
+  padding: 50px;
+  text-decoration: none;
+  color: khaki;
+  font-family: "Courier New";
+  font-size: 20px;
+  background-color: black;
+  border: 1px solid #f05050;
+  opacity: 0.7;
+}
+nav > a:hover {
+  background-color: gainsboro;
+  border: 1px dotted red;
+  color: rgb(214, 69, 142);
+}
+.intru {
+  color: rgb(160, 150, 65);
+  padding-left: 500px;
+  font-size: 60px;
+  position: absolute;
+  bottom: 340px;
+  color: #ec5a5a;
+  font-family: "Ubuntu", sans-serif;
+  width: 46%;
+}
+.intr {
+  color: rgb(160, 150, 65);
+  padding-left: 500px;
+  font-size: 30px;
+  position: absolute;
+  bottom: 160px;
+  font-family: "Ubuntu", sans-serif;
+  width: 46%;
+}
+p span {
+  color: #f05050;
+}
+#projects h3 {
+  background-color: rgb(212, 205, 205);
+  padding: 10px;
+  font-family: monospace;
+}
+#projects p {
+  color: rgb(61, 43, 43);
+  width: 28%;
+}
+.link {
+  padding: 8px;
+  text-decoration: none;
+  background-color: rgb(190, 136, 201);
+  font-family: cursive;
+  color: white;
+}
+.link:hover {
+  background-color: darkgray;
+  font-size: 19px;
+}
+#about {
+  text-align: center;
+  color: rgb(211, 144, 62);
+  font-family: "Courier New";
+  background-color: rgb(212, 205, 205);
+  padding: 80px;
+}
+#skills {
+  text-align: center;
+  color: rgb(211, 144, 62);
+  font-family: "Courier New";
+  background-color: rgb(212, 205, 205);
+  padding: 80px;
+}
+#contact {
+  text-align: center;
+  color: rgb(141, 80, 153);
+  background-color: rgb(212, 204, 205);
+  padding: 80px;
+  font-family: monospace;
+}
+input[type="text"],
+select {
+  width: 50%;
+  padding: 17px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
 
+input[type="submit"] {
+  width: 20%;
+  background-color: rgb(189, 136, 201);
+  color: white;
+  padding: 28px 34px;
+  margin: 7px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-.intro{color:rgb(160, 150, 65);
-    padding-left:500px;
-font-size: 30px;
-position:absolute;
-bottom:130px;
-font-family: 'Courier New';
-width:46%;
+input[type="submit"]:hover {
+  background-color: red;
 }
-p span{color:rgb(33, 58, 128);
+#msg {
+  padding: 80px;
 }
-#projects h3{background-color:rgb(212, 205, 205);
-padding:10px;
-font-family:monospace;}
-#projects p{color:rgb(61, 43, 43);
-width:28%;}
-.link{padding:8px;
-text-decoration:none;
-background-color:rgb(190, 136, 201);
-font-family:cursive;
-color:white;}
-.link:hover{
-    background-color: darkgray;
-    font-size :19px;
+footer {
+  text-align: center;
+  padding-top: 20px;
+  background-color: grey;
+  font-family: "Courier New";
+  opacity: 0.65;
 }
-#about{text-align:center;
-    color:rgb(211, 144, 62);
-font-family:'Courier New';
-background-color:rgb(212, 205, 205);
-padding:80px;
-}
-#contact{text-align:center;
-    color:rgb(141, 80, 153);
-    background-color:rgb(212, 204, 205);
-padding:80px ;
-font-family:monospace;
-}
-input[type=text], select {
-    width: 50%;
-    padding: 17px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-   
-  }
-  
-  input[type=submit] {
-    width: 20%;
-    background-color: rgb(189, 136, 201);
-    color: white;
-    padding: 28px 34px;
-    margin: 7px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
-    background-color:red;
-  }
- #msg{padding:80px;}
-  footer{text-align:center;
-padding-top:20px;
-background-color:grey;
-font-family:'Courier New';
-opacity: 0.65;}
 
-#projects{padding:199px;
-    background-color:rgb(245, 236, 236) ;
+#projects {
+  padding: 199px;
+  background-color: rgb(245, 236, 236);
 }
-#projects h1{text-align:center;
-color:grey;
-font-family:cursive;
-font-size: 39px;
-margin-bottom: 80px;}
+#projects h1 {
+  text-align: center;
+  color: grey;
+  font-family: cursive;
+  font-size: 39px;
+  margin-bottom: 80px;
+}
 
-.project{
-    display:flex;
-    flex-direction:row;
-    justify-content: space-around;
-    padding: 1px;
-    text-decoration-line:none;
-   
-      
+.project {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1px;
+  text-decoration-line: none;
 }
-.project a{
-    text-decoration-line:none;
-    border:1px solid #f05050;
-    padding:10px;
-    background-color:rgb(209, 173, 216);
-    font-family:serif;
-    color:black;
+.project a {
+  text-decoration-line: none;
+  border: 1px solid #f05050;
+  padding: 10px;
+  background-color: rgb(209, 173, 216);
+  font-family: serif;
+  color: black;
 }
-.project a:hover{
-    background-color:#f05050;}
-.project{
-    display:flex;
-    flex-direction:row;
-    justify-content: space-around;
+.project a:hover {
+  background-color: #f05050;
 }
-.projec{display:flex;
-    flex-direction:row;
-    justify-content: space-around;
-    }
+.project {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.projec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
