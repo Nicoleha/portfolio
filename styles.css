@@ -27,7 +27,7 @@ nav > a:hover {
   color: rgb(214, 69, 142);
 }
 .intru {
-  color: rgb(160, 150, 65);
+  color: rgb(194, 192, 107);
   padding-left: 500px;
   font-size: 60px;
   position: absolute;
@@ -37,7 +37,7 @@ nav > a:hover {
   width: 46%;
 }
 .intr {
-  color: rgb(160, 150, 65);
+  color: rgb(0, 0, 0);
   padding-left: 500px;
   font-size: 30px;
   position: absolute;
@@ -68,21 +68,31 @@ p span {
   background-color: darkgray;
   font-size: 19px;
 }
+.bout{display: flex;
+  flex-direction: row;
+  justify-content: space-around;}
+  #more{ display: flex;
+    flex-direction: row;
+    justify-content: space-around;}
 #about {
-  text-align: center;
+  height: 100%;
+  font-family: 'Artifika', serif;
+  font-family: 'Exo', sans-serif;
   color: rgb(211, 144, 62);
   font-family: "Courier New";
   background-color: rgb(212, 205, 205);
-  padding: 80px;
+  padding: 50px;
 }
 #skills {
+  height: 100%;
   text-align: center;
   color: rgb(211, 144, 62);
   font-family: "Courier New";
   background-color: rgb(212, 205, 205);
-  padding: 80px;
+  padding: 50px;
 }
 #contact {
+  height: 100%;
   text-align: center;
   color: rgb(141, 80, 153);
   background-color: rgb(212, 204, 205);
@@ -134,7 +144,7 @@ footer {
   color: grey;
   font-family: cursive;
   font-size: 39px;
-  margin-bottom: 80px;
+  margin-bottom: 30px;
 }
 
 .project {
