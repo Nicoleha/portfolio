@@ -2,10 +2,35 @@ body,
 html {
   height: 100%;
 }
+.img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+img {
+  border-radius: 8px;
+}
 #hm {
   background-image: url("https://images.pexels.com/photos/34578/pexels-photo.jpg");
   height: 100%;
   background-size: cover;
+}
+
+.di {
+  width: 200px;
+  height: 120px;
+  background: red;
+  -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+  transition: width 2s;
+}
+
+.di:hover {
+  width: 350px;
 }
 nav {
   position: fixed;
@@ -68,9 +93,13 @@ p span {
   background-color: darkgray;
   font-size: 19px;
 }
-.bout{display: flex;
+.bout{
+  /* display: flex;
   flex-direction: row;
-  justify-content: space-around;}
+  justify-content: space-around; */
+  margin-left: 130px;
+
+}
   #more{ display: flex;
     flex-direction: row;
     justify-content: space-around;}
