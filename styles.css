@@ -1,7 +1,10 @@
 body,
 html {
   height: 100%;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
 }
+h1{margin-bottom: 90px;}
 .img {
   border: 1px solid #ddd;
   border-radius: 4px;
@@ -16,7 +19,7 @@ img {
   border-radius: 8px;
 }
 #hm {
-  background-image: url("https://images.pexels.com/photos/34578/pexels-photo.jpg");
+  background-image: url("https://images.pexels.com/photos/1036808/pexels-photo-1036808.jpeg");
   height: 100%;
   background-size: cover;
 }
@@ -34,69 +37,67 @@ img {
 }
 nav {
   position: fixed;
+  height:100%;
 }
 nav > a {
   display: flex;
   padding: 50px;
   text-decoration: none;
-  color: khaki;
-  font-family: "Courier New";
+  color: rgb(0, 0, 0);
+ 
   font-size: 20px;
-  background-color: black;
-  border: 1px solid #f05050;
-  opacity: 0.7;
+  background-color: white;
+  
 }
 nav > a:hover {
   background-color: gainsboro;
-  border: 1px dotted red;
-  color: rgb(214, 69, 142);
+
+  color:maroon;
+  text-decoration: none;
 }
 .intru {
   color: rgb(194, 192, 107);
-  padding-left: 500px;
-  font-size: 50px;
+  padding-left: 34%;
+  font-size: 45px;
   position: absolute;
-  bottom: 340px;
-  color: #ec5a5a;
-  font-family: "Ubuntu", sans-serif;
+  bottom: 35%;
+  color: black;
+
   width: 46%;
 }
 .intr {
-  color: rgb(0, 0, 0);
-  padding-left: 500px;
-  font-size: 30px;
+
+  color:black;
+  padding-left: 34%;
+  font-size: 20px;
   position: absolute;
-  bottom: 160px;
-  font-family: "Ubuntu", sans-serif;
-  width: 46%;
+  bottom: 25%;
+
+  
 }
-p span {
-  color: #f05050;
+
+#projects p,h3{
+  color: rgb(0, 0, 0);
 }
-#projects h3 {
-  background-color: rgb(212, 205, 205);
-  padding: 10px;
-  font-family: monospace;
+#projects a{
+  padding: 30px;
+
 }
-#projects p {
-  color: rgb(61, 43, 43);
-  width: 28%;
+#projects{
+  color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+text-align: center;
+
 }
-.link {
-  padding: 8px;
-  text-decoration: none;
-  background-color: rgb(190, 136, 201);
-  font-family: cursive;
-  color: white;
-}
+
 .link:hover {
   background-color: darkgray;
   font-size: 19px;
 }
 .bout{
-  /* display: flex;
+  display: flex;
   flex-direction: row;
-  justify-content: space-around; */
+  justify-content: space-around;
   margin-left: 130px;
 
 }
@@ -105,102 +106,31 @@ p span {
     justify-content: space-around;}
 #about {
   height: 100%;
-  font-family: 'Artifika', serif;
-  font-family: 'Exo', sans-serif;
-  color: rgb(211, 144, 62);
-  font-family: "Courier New";
-  background-color: rgb(212, 205, 205);
+
+  color: rgb(255, 255, 255);
+
+  background-color: rgb(0, 0, 0);
   padding: 50px;
 }
 #skills {
   height: 100%;
   text-align: center;
-  color: rgb(211, 144, 62);
-  font-family: "Courier New";
-  background-color: rgb(212, 205, 205);
+  color: rgb(250, 249, 249);
+
+  background-color: rgb(0, 0, 0);
   padding: 50px;
 }
 #contact {
   height: 100%;
   text-align: center;
-  color: rgb(141, 80, 153);
-  background-color: rgb(212, 204, 205);
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
   padding: 80px;
-  font-family: monospace;
-}
-input[type="text"],
-select {
-  width: 50%;
-  padding: 17px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
+
 }
 
-input[type="submit"] {
-  width: 20%;
-  background-color: rgb(189, 136, 201);
-  color: white;
-  padding: 28px 34px;
-  margin: 7px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type="submit"]:hover {
-  background-color: red;
-}
-#msg {
-  padding: 80px;
-}
 footer {
   text-align: center;
   padding-top: 20px;
-  background-color: grey;
-  font-family: "Courier New";
   opacity: 0.65;
-}
-
-#projects {
-  padding: 199px;
-  background-color: rgb(245, 236, 236);
-}
-#projects h1 {
-  text-align: center;
-  color: grey;
-  font-family: cursive;
-  font-size: 39px;
-  margin-bottom: 30px;
-}
-
-.project {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding: 1px;
-  text-decoration-line: none;
-}
-.project a {
-  text-decoration-line: none;
-  border: 1px solid #f05050;
-  padding: 10px;
-  background-color: rgb(209, 173, 216);
-  font-family: serif;
-  color: black;
-}
-.project a:hover {
-  background-color: #f05050;
-}
-.project {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-.projec {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
 }
